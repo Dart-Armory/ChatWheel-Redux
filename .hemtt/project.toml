@@ -4,7 +4,7 @@ prefix = "CWR"
 mainprefix = "DA"
 
 [version]
-path = "addons/Core/script_version.hpp"
+path = "addons/main/script_version.hpp"
 git_hash = 0
 
 [files]
@@ -30,8 +30,10 @@ workshop = [
 ]
 presets = []
 dlc = []
-optionals = []
-parameters = []
+optionals = ["vanilla_voice_eng"]
+parameters = [
+    "C:\\Users\\skull\\OneDrive\\Documents\\Arma 3 - Other Profiles\\CE%2fSPC-0925%20%22Dart%22\\missions\\CWR_Test.VR"
+]
 
 [hemtt.launch.ace]
 workshop = [
@@ -41,5 +43,5 @@ workshop = [
 ]
 presets = []
 dlc = []
-optionals = []
+optionals = ["vanilla_voice_eng"]
 parameters = []
